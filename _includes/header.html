@@ -48,7 +48,7 @@
           {% if p.dropdown %}
           <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{ p.title }} About
+                {{ p.title }}
                 {% if page.title == p.title %}
                 <span class="sr-only">(current)</span>
                 {% endif %}
@@ -66,7 +66,7 @@
           {% else %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
-                {{ p.title }}
+                {{ p.title }} About
                 {% if page.title == p.title %}
                 <span class="sr-only">(current)</span>
                 {% endif %}
