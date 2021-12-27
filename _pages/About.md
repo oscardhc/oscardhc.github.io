@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: A senior majoring in Computer Science at [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).
+description: 
 
 profile:
   align: right
@@ -16,6 +16,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
+I am a senior majoring in Computer Science at [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).
 
 My research interests lie in the area of theoretical computer science, with a focus on optimization and machine learning theory. I am also interested in compiler optimization and online algorithms.
 
